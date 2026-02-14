@@ -1,3 +1,12 @@
+---
+title: "个人简历"         # 页面标题
+permalink: /resume-zh/   # 【关键】这是中文页面的访问地址
+layout: single
+author_profile: true     # 显示左侧头像栏
+toc: true                # 如果需要目录就开启
+---
+
+
 # Sandro
 <!-- 请在此处替换你的联系方式 -->
 📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 陕西·西安/河北·石家庄
