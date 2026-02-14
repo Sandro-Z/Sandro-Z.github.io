@@ -2,81 +2,73 @@
 permalink: /about/
 title: "About"
 ---
-
-# 张海阳
-<!-- 请在此处替换你的联系方式 -->
-📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 陕西·西安/河北·石家庄
-
----
-
-## 🎓 教育经历
-
-**西安交通大学** | **生物技术（强基计划）** | **本科**
-*2023.09 - 2027.06 (预计)*
-- **研究方向：** 生物信息学 (Bioinformatics)
-- **核心课程：** 基因组学、分子生物学、Python程序设计、生物信息学、Linux操作系统、数据结构与算法等
-- **英语能力：** **雅思 7.0** (单项不低于 6.0)
+Other languages: [zh](/resume-zh/){: .btn .btn--success}
+# Sandro (Haiyang Zhang)
+<!-- Replace with your phone number if needed -->
+📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 Xi'an, Shaanxi / Shijiazhuang, Hebei
 
 ---
 
-## 🔬 科研与项目经历
+## 🎓 Education
 
-**单细胞蛋白表达与GWAS整合分析项目** | *核心成员*
-*2025.07 - 至今*
-- **项目描述：** 致力于通过整合单细胞测序数据与全基因组关联分析（GWAS），探索复杂疾病的致病机理。
-- **主要工作：**
-  - 负责对大规模单细胞转录组数据进行预处理、降维聚类及细胞类型注释（使用 Python/R）。
-  - 利用统计学方法整合GWAS汇总统计数据，识别疾病相关的关键蛋白表达特征。
-  - **技术栈：** Python (Scanpy), R (Seurat), Linux Shell, GWAS tools，scBPS(jjlea/scBPS).
+**Xi'an Jiaotong University (XJTU)** | **Biotechnology (Strong Foundation Plan)** | **B.S.**
+*Sept. 2023 - June 2027 (Expected)*
+- **Research Interest:** Bioinformatics
+- **Core Courses:** Genomics, Molecular Biology, Python Programming, Bioinformatics, Linux Operating System, Data Structures & Algorithms.
+- **English Proficiency:** **IELTS 7.0** (No band less than 6.0)
 
-**热消融监控成像技术研究（国家级/校级大创项目）** | *核心成员*
+---
+
+## 🔬 Research & Project Experience
+
+**Integration of Single-cell Protein Expression & GWAS** | *Core Member*
+*July 2025 - Present*
+- **Description:** Dedicated to exploring pathogenic mechanisms of complex diseases by integrating single-cell sequencing data with Genome-Wide Association Studies (GWAS).
+
+**Thermal Ablation Monitoring Imaging Technology (National Innovation Training Project)** | *Core Member*
 *2025 - 2026*
-- **项目描述：** 针对热消融手术过程中的实时监控难题，开发/优化成像监控系统。
-- **主要工作：**
-  - 统筹项目进度，负责算法优化。
-  - 参与图像数据的采集与处理算法的验证，优化监控成像的清晰度与实时性。
+- **Description:** Developed and optimized an imaging monitoring system to address real-time monitoring challenges during thermal ablation surgery.
 
-**ALDH家族基因功能研究（大创项目）** | *核心成员*
+**Functional Study of ALDH Family Genes (Innovation Training Project)** | *Core Member*
 *2025 - 2026*
-- **项目描述：** 探究乙醛脱氢酶（ALDH）家族在特定生物过程中的代谢调控机制。
-- **主要工作：** 协助进行湿实验数据采集，并利用生物信息学工具对ALDH同源基因进行序列比对与进化树分析。
+- **Description:** Investigated the metabolic regulation mechanisms of the Aldehyde Dehydrogenase (ALDH) family in specific biological processes.
 
 ---
 
-## 💻 校园与技术经历
+## 💻 Campus & Technical Experience
 
-**西安交通大学网络管理协会** | **社长**
+**XJTU Network Management Association** | **President**
 *2025 - 2026*
-- **社团管理：** 统筹协会日常运营，组织技术分享会与网络维护培训，提升社员技术水平；获评“2024-2025年度优秀社员”。
-- **技术实践：** 负责校园网的基础维护与故障排查，协调处理突发网络安全事件。
+- **Management:** Coordinated daily operations, organized technical sharing sessions and network maintenance training to enhance members' skills. Awarded "Outstanding Member (2024-2025)". Previously served as the Head of the R&D Department.
+- **Technical Practice:** Responsible for basic maintenance and troubleshooting of the campus network, coordinated responses to sudden network security incidents, and provided voluntary computer repair services and IT knowledge popularization.
 
-**西安交通大学开源镜像站 (<https://mirrors.xjtu.edu.cn/>)** | **站点管理员**
+**XJTU Open Source Mirror Station (<https://mirrors.xjtu.edu.cn/>)** | **Site Administrator**
 *2025 - 2026*
-- **运维管理：** 负责镜像站服务器的**Linux运维**与架构优化，确保为校内外用户提供稳定、高速的开源软件镜像服务。
-- **同步监控：** 编写与维护同步脚本（Bash/Python），监控各大Linux发行版及软件源的同步状态，解决同步冲突与带宽瓶颈问题。
-- **技能体现：** 深入掌握 Nginx/Caddy 配置、Docker 容器化部署及 ZFS/LVM 存储管理。
+- **DevOps & Management:** Responsible for **Linux O&M** and architecture optimization of the mirror station servers, ensuring stable and high-speed open-source software mirror services for on- and off-campus users.
+- **Sync Monitoring:** Developed and maintained synchronization scripts (Bash/Python) to monitor the status of major Linux distributions and software repositories, resolving synchronization conflicts and bandwidth bottlenecks.
+- **Skills Applied:** In-depth mastery of Nginx/Caddy configuration, Docker containerization deployment, and ZFS/LVM storage management.
+- **Honors & Recognition:** The mirror station was officially listed by **Ubuntu**, **Rocky Linux**, and **openEuler**. Invited to attend the 2025 Nanjing University Open Source Software Forum.
 
 ---
 
-## 🏆 荣誉奖项
+## 🏆 Honors & Awards
 
-**🔍 学术与综合类**
-- 2024-2025年度 西安交通大学 **优秀学生**
-- 2023-2024年度 西安交通大学 **优秀学生**
-- 2024-2025年度 西安交通大学 **校级二等奖学金**
-- 2023-2024年度 西安交通大学 **校级二等奖学金**
-- 2024-2025年度 西安交通大学网络管理协会 **优秀社员**
+**🔍 Academic & Comprehensive**
+- **Outstanding Student**, Xi'an Jiaotong University (2023-2024, 2024-2025)
+- **University-level Second Class Scholarship** (2023-2024, 2024-2025)
+- **Outstanding Member**, XJTU Network Management Association (2023-2024, 2024-2025)
 
-**💻 竞赛与技能类**
-- 2024-2025年 **蓝桥杯** 全国软件和信息技术专业人才大赛（Python组） **陕西省二等奖**
-- 2024-2025年 西安交通大学“火山杯”人工智能竞赛 **二等奖**
+**💻 Competitions & Skills**
+- **Second Prize (Provincial)**, "Lanqiao Cup" National Software and IT Professional Talent Competition (Python Group) (2024-2025)
+- **Second Prize**, XJTU "Volcano Cup" Artificial Intelligence Competition (2024-2025)
 
 ---
 
-## 🛠️ 技能特长
+## 🛠️ Skills
 
-- **编程语言：** **Python** (熟练，蓝桥杯获奖/生信分析主力语言), R, Shell, C/C++ (基础)
-- **数据分析：** 熟悉 Pandas, NumPy, Matplotlib, Scikit-learn 等数据科学库；掌握常规生物信息学分析流程（RNA-seq, GWAS等）。
-- **系统运维：** **Linux (Expert)**, 熟悉 CentOS/Ubuntu/Debian 等发行版管理，熟练掌握 Vim, Systemd, 网络配置及故障排查。
-- **网络技术：** 熟悉 TCP/IP 协议，具备校园网及服务器集群的网络运维经验。
-- **其他工具：** Git 版本控制, Docker 容器技术, LaTeX 排版。
+- **Programming:** **Python** (Proficient, Lanqiao Award Winner/Primary language for Bioinfo), R, Shell, C/C++ (Basic).
+- **Data Analysis:** Familiar with Pandas, NumPy, Matplotlib, and Scikit-learn; Mastered standard bioinformatics pipelines (RNA-seq, GWAS, etc.).
+- **System Ops:** **Linux (Expert)**; Familiar with CentOS, Ubuntu, Debian, and ArchLinux; Proficient in Vim, Systemd, Network Configuration, and Troubleshooting.
+- **Network Tech:** Familiar with TCP/IP protocols; Experience in campus network and server cluster O&M; Familiar with Nginx, Apache, and MySQL infrastructure operations.
+- **Tools:** Git (Version Control), Docker (Containerization), LaTeX (Typesetting).
+
