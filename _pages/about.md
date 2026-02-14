@@ -37,12 +37,12 @@ Other languages: [zh](/resume-zh/){: .btn .btn--success}
 
 ## 💻 Campus & Technical Experience
 
-**XJTU Network Management Association** | **President**
+**XJTU Association of Network Administrators** | **President**
 *2025 - 2026*
 - **Management:** Coordinated daily operations, organized technical sharing sessions and network maintenance training to enhance members' skills. Awarded "Outstanding Member (2024-2025)". Previously served as the Head of the R&D Department.
 - **Technical Practice:** Responsible for basic maintenance and troubleshooting of the campus network, coordinated responses to sudden network security incidents, and provided voluntary computer repair services and IT knowledge popularization.
 
-**XJTU Open Source Mirror Station (<https://mirrors.xjtu.edu.cn/>)** | **Site Administrator**
+**XJTU Open Source Mirror Site (<https://mirrors.xjtu.edu.cn/>)** | **Site Administrator**
 *2025 - 2026*
 - **DevOps & Management:** Responsible for **Linux O&M** and architecture optimization of the mirror station servers, ensuring stable and high-speed open-source software mirror services for on- and off-campus users.
 - **Sync Monitoring:** Developed and maintained synchronization scripts (Bash/Python) to monitor the status of major Linux distributions and software repositories, resolving synchronization conflicts and bandwidth bottlenecks.
