@@ -3,6 +3,80 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+# 张海阳
+<!-- 请在此处替换你的联系方式 -->
+📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 陕西·西安/河北·石家庄
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+---
+
+## 🎓 教育经历
+
+**西安交通大学** | **生物技术（强基计划）** | **本科**
+*2023.09 - 2027.06 (预计)*
+- **研究方向：** 生物信息学 (Bioinformatics)
+- **核心课程：** 基因组学、分子生物学、Python程序设计、生物信息学、Linux操作系统、数据结构与算法等
+- **英语能力：** **雅思 7.0** (单项不低于 6.0)
+
+---
+
+## 🔬 科研与项目经历
+
+**单细胞蛋白表达与GWAS整合分析项目** | *核心成员*
+*2025.07 - 至今*
+- **项目描述：** 致力于通过整合单细胞测序数据与全基因组关联分析（GWAS），探索复杂疾病的致病机理。
+- **主要工作：**
+  - 负责对大规模单细胞转录组数据进行预处理、降维聚类及细胞类型注释（使用 Python/R）。
+  - 利用统计学方法整合GWAS汇总统计数据，识别疾病相关的关键蛋白表达特征。
+  - **技术栈：** Python (Scanpy), R (Seurat), Linux Shell, GWAS tools，scBPS(jjlea/scBPS).
+
+**热消融监控成像技术研究（国家级/校级大创项目）** | *核心成员*
+*2025 - 2026*
+- **项目描述：** 针对热消融手术过程中的实时监控难题，开发/优化成像监控系统。
+- **主要工作：**
+  - 统筹项目进度，负责算法优化。
+  - 参与图像数据的采集与处理算法的验证，优化监控成像的清晰度与实时性。
+
+**ALDH家族基因功能研究（大创项目）** | *核心成员*
+*2025 - 2026*
+- **项目描述：** 探究乙醛脱氢酶（ALDH）家族在特定生物过程中的代谢调控机制。
+- **主要工作：** 协助进行湿实验数据采集，并利用生物信息学工具对ALDH同源基因进行序列比对与进化树分析。
+
+---
+
+## 💻 校园与技术经历
+
+**西安交通大学网络管理协会** | **社长**
+*2025 - 2026*
+- **社团管理：** 统筹协会日常运营，组织技术分享会与网络维护培训，提升社员技术水平；获评“2024-2025年度优秀社员”。
+- **技术实践：** 负责校园网的基础维护与故障排查，协调处理突发网络安全事件。
+
+**西安交通大学开源镜像站 (<https://mirrors.xjtu.edu.cn/>)** | **站点管理员**
+*2025 - 2026*
+- **运维管理：** 负责镜像站服务器的**Linux运维**与架构优化，确保为校内外用户提供稳定、高速的开源软件镜像服务。
+- **同步监控：** 编写与维护同步脚本（Bash/Python），监控各大Linux发行版及软件源的同步状态，解决同步冲突与带宽瓶颈问题。
+- **技能体现：** 深入掌握 Nginx/Caddy 配置、Docker 容器化部署及 ZFS/LVM 存储管理。
+
+---
+
+## 🏆 荣誉奖项
+
+**🔍 学术与综合类**
+- 2024-2025年度 西安交通大学 **优秀学生**
+- 2023-2024年度 西安交通大学 **优秀学生**
+- 2024-2025年度 西安交通大学 **校级二等奖学金**
+- 2023-2024年度 西安交通大学 **校级二等奖学金**
+- 2024-2025年度 西安交通大学网络管理协会 **优秀社员**
+
+**💻 竞赛与技能类**
+- 2024-2025年 **蓝桥杯** 全国软件和信息技术专业人才大赛（Python组） **陕西省二等奖**
+- 2024-2025年 西安交通大学“火山杯”人工智能竞赛 **二等奖**
+
+---
+
+## 🛠️ 技能特长
+
+- **编程语言：** **Python** (熟练，蓝桥杯获奖/生信分析主力语言), R, Shell, C/C++ (基础)
+- **数据分析：** 熟悉 Pandas, NumPy, Matplotlib, Scikit-learn 等数据科学库；掌握常规生物信息学分析流程（RNA-seq, GWAS等）。
+- **系统运维：** **Linux (Expert)**, 熟悉 CentOS/Ubuntu/Debian 等发行版管理，熟练掌握 Vim, Systemd, 网络配置及故障排查。
+- **网络技术：** 熟悉 TCP/IP 协议，具备校园网及服务器集群的网络运维经验。
+- **其他工具：** Git 版本控制, Docker 容器技术, LaTeX 排版。
