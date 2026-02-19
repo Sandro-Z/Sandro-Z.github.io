@@ -7,6 +7,7 @@ categories:
   - Data Science
 tags:
   - R
+  - Data tidying
 ---
 
 # ”清洁的“数据要满足的标准
@@ -66,6 +67,8 @@ table3
 
 # `pivot_longer()`：将宽的数据变长
 * 场景：列名是数据的值，而不是变量本身
+
+* tidyverse处理数据实践中，一般喜欢把宽的数据变长
 
 例子：
 ```
