@@ -5,7 +5,7 @@ title: "About"
 Other languages: [zh](/resume-zh/){: .btn .btn--success}
 # Sandro (Haiyang Zhang)
 <!-- Replace with your phone number if needed -->
-📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 Xi'an, Shaanxi / Shijiazhuang, Hebei
+📧 me@sandroz.com | 📍 Xi'an, Shaanxi / Shijiazhuang, Hebei
 
 ---
 
