@@ -2,7 +2,7 @@
 title: "frp无法连接排查"
 date: 2026-02-15 10:17:00 +0800
 excerpt_separator: "<!--more-->"
-last_modified_at: 2026-02-15T10:17:02-05:00
+last_modified_at: 2026-02-21T20:35:02+08:00
 categories:
   - Network
 tags:
@@ -28,7 +28,7 @@ tags:
   ```
   touch /etc/sysctl.conf
   echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.conf
-  echo "net.ipv4.tcp_congestion_control=bbr" I sudo tee -a /etc/sysctl.conf
+  echo "net.ipv4.tcp_congestion_control=bbr" | sudo tee -a /etc/sysctl.conf
   sudo sysctl -p
   ```
 
@@ -45,3 +45,5 @@ tags:
 这种机器在未超售时（对应前几天正常运行）可用性较强，但是商家低价超售后会有很严重的抢带宽问题，因此应避免选择这种出口。
 
 一般来讲，1C1G的机器价格在5$左右比较合理，超低价机器很可能有坑。
+
+另：VSCode和Antigravity等ssh客户端与原生ssh不同，前二者需要远端下载一些服务端文件并运行，因此对*网速/服务器磁盘容量/内存大小*有较高的要求，在使用时需要多加注意。

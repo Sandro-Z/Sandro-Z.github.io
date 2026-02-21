@@ -22,8 +22,11 @@ tags:
 `read_csv()`默认的推断逻辑是：
 
 > Does it contain only F, T, FALSE, or TRUE (ignoring case)? If so, it’s a logical.
+
 > Does it contain only numbers (e.g., 1, -4.5, 5e6, Inf)? If so, it’s a number.
+
 > Does it match the ISO8601 standard? If so, it’s a date or date-time. 
+
 > Otherwise, it must be a string.
 
 如：
