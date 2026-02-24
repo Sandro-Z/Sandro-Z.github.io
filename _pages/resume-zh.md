@@ -9,7 +9,7 @@ toc: true                # 如果需要目录就开启
 
 # Sandro
 <!-- 请在此处替换你的联系方式 -->
-📧 zhanghaiyang@stu.xjtu.edu.cn | 📍 陕西·西安/河北·石家庄
+📧 me@sandroz.com | 📍 陕西·西安/河北·石家庄
 
 ---
 
