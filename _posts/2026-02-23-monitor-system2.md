@@ -1,8 +1,8 @@
 ---
 title: "Node Exporter+Prometheus+Grafana多机器服务监控系统搭建（2）"
-date: 2026-02-23 23:53:00 +0800
+date: 2026-02-24 10:38:00 +0800
 excerpt_separator: "<!--more-->"
-last_modified_at: 2026-02-23T23:53:00+08:00
+last_modified_at: 2026-02-24T10:38:00+08:00
 categories:
   - Network
   - Linux Devops
