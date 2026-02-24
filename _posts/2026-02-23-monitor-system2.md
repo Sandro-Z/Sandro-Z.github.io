@@ -61,10 +61,12 @@ Grafana页面中无法配置发信设置，需要在docker服务启动时传入�
   选择数据源：Prometheus。
 
   输入 PromQL（逻辑：统计该容器名字出现的次数，如果活着就是1，挂了就是0）：
+
   ```
   count by (instance, name) (container_last_seen{name="my-service"})
   # OR vector(0) 是为了防止容器彻底挂掉后 Prometheus 查不到数据导致返回“空”，从而无法触发“小于1”的判断。加上这个，如果查不到数据，它会返回 0。
   ```
+  
   运行查询，确保图表有线。
 
 3. Step 2: Define alert conditions
@@ -74,6 +76,7 @@ Grafana页面中无法配置发信设置，需要在docker服务启动时传入�
   Threshold: Input A is below 1。如果数值小于 1（即等于 0），则触发告警。
 
 4. Step 3: Set evaluation behavior
+
   Folder: 随便选一个或新建一个（如 "Docker Alerts"）。
 
   Evaluation group: 新建一个（如 "1m check"），Interval 设为 1m（每分钟查一次）。
@@ -110,6 +113,7 @@ OR on(instance) (up{job="node-exporter"} * 0)
 ```
 同时我们需要修改下面遇到No data的情况。
 1. 找到 Configure no data and error handling。
+
 2. Alert state if no data: 修改为 Normal。
 
 为什么？ 因为现在我们把“服务挂了”通过PromQL语句变成了“数值等于0”，这属于正常数据。

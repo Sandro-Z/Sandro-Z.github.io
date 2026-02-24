@@ -187,6 +187,7 @@ volumes:
 首先，我们可以导入一个最简单的系统基本信息集成面板：
 
 1. 添加数据源（也就是我们部署的Prometheus）
+
   * 点击左侧菜单的 Connections -> Data Sources。
 
   * 点击 Add new data source。
@@ -200,6 +201,7 @@ volumes:
   * 拉到最下方，点击 Save & test。如果显示绿色勾勾 "Successfully queried..."，说明连接成功。
 
 2. 导入Dashboard
+
   * 点击左侧菜单的 Dashboards。
 
   * 点击右上角的 New -> Import。
