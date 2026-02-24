@@ -188,31 +188,31 @@ volumes:
 
 1. 添加数据源（也就是我们部署的Prometheus）
 
-  * 点击左侧菜单的 Connections -> Data Sources。
+    * 点击左侧菜单的 Connections -> Data Sources。
 
-  * 点击 Add new data source。
+    * 点击 Add new data source。
 
-  * 选择 Prometheus。
+    * 选择 Prometheus。
 
-  * 在 Prometheus server URL 一栏输入：http://prometheus:9090
+    * 在 Prometheus server URL 一栏输入：http://prometheus:9090
 
-  * *注意：这里我们用的是 docker 容器名，而不是 localhost，因为 Grafana 容器需要通过 Docker 网络访问 Prometheus 容器。*
+    * *注意：这里我们用的是 docker 容器名，而不是 localhost，因为 Grafana 容器需要通过 Docker 网络访问 Prometheus 容器。*
 
-  * 拉到最下方，点击 Save & test。如果显示绿色勾勾 "Successfully queried..."，说明连接成功。
+    * 拉到最下方，点击 Save & test。如果显示绿色勾勾 "Successfully queried..."，说明连接成功。
 
 2. 导入Dashboard
 
-  * 点击左侧菜单的 Dashboards。
+    * 点击左侧菜单的 Dashboards。
 
-  * 点击右上角的 New -> Import。
+    * 点击右上角的 New -> Import。
 
-  * 在 Import via grafana.com 下方的输入框中，输入 ID：1860。这是官方推荐的 "Node Exporter Full" 中文/英文通用面板。
+    * 在 Import via grafana.com 下方的输入框中，输入 ID：1860。这是官方推荐的 "Node Exporter Full" 中文/英文通用面板。
 
-  * 点击 Load。
+    * 点击 Load。
 
-  * 在下方的 Prometheus 选项中，选择你刚才添加的数据源。
+    * 在下方的 Prometheus 选项中，选择你刚才添加的数据源。
 
-  * 点击 Import。
+    * 点击 Import。
 ![import dashboard](/assets/images/屏幕截图%202026-02-23%20234232.png)
 
 完成后，就可以看到图示的监控界面啦！

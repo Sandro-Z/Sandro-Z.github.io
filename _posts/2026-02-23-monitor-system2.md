@@ -58,41 +58,42 @@ Grafana页面中无法配置发信设置，需要在docker服务启动时传入�
 
 2. Step 1: Define query
 
-  选择数据源：Prometheus。
+    选择数据源：Prometheus。
 
-  输入 PromQL（逻辑：统计该容器名字出现的次数，如果活着就是1，挂了就是0）：
+    输入 PromQL（逻辑：统计该容器名字出现的次数，如果活着就是1，挂了就是0）：
 
-  ```
-  count by (instance, name) (container_last_seen{name="my-service"})
-  # OR vector(0) 是为了防止容器彻底挂掉后 Prometheus 查不到数据导致返回“空”，从而无法触发“小于1”的判断。加上这个，如果查不到数据，它会返回 0。
-  ```
+    ```
+    count by (instance, name) (container_last_seen{name="my-service"})
+    # OR vector(0) 是为了防止容器彻底挂掉后 Prometheus 查不到数据导致返回“空”，从而无法触发“小于1”的判断。加上这个，如果查不到数据，它会返回 0。
+    ```
   
-  运行查询，确保图表有线。
+    运行查询，确保图表有线。
 
 3. Step 2: Define alert conditions
 
-  Reduce: Function 选 Last (取最新值)。
+    Reduce: Function 选 Last (取最新值)。
 
-  Threshold: Input A is below 1。如果数值小于 1（即等于 0），则触发告警。
+    Threshold: Input A is below 1。如果数值小于 1（即等于 0），则触发告警。
 
 4. Step 3: Set evaluation behavior
 
-  Folder: 随便选一个或新建一个（如 "Docker Alerts"）。
+    Folder: 随便选一个或新建一个（如 "Docker Alerts"）。
 
-  Evaluation group: 新建一个（如 "1m check"），Interval 设为 1m（每分钟查一次）。
+    Evaluation group: 新建一个（如 "1m check"），Interval 设为 1m（每分钟查一次）。
 
-  Pending period: 1m（持续挂掉1分钟才发邮件，防止网络抖动误报）。
-  Configure no data and error handling:
+    Pending period: 1m（持续挂掉1分钟才发邮件，防止网络抖动误报）。
 
-  Alert state if no data or all values are null: Alerting (这一步很关键！如果容器彻底消失，可能连 0 都没返回，这时要强制视为告警)。
+    Configure no data and error handling:
+
+    Alert state if no data or all values are null: Alerting (这一步很关键！如果容器彻底消失，可能连 0 都没返回，这时要强制视为告警)。
 
 5. Step 4: Add annotations
 
-  Summary: [紧急] 服务异常: {{ $labels.name }} ({{ $labels.instance }})
+    Summary: [紧急] 服务异常: {{ $labels.name }} ({{ $labels.instance }})
 
-  Description: 检测到服务器 {{ $labels.instance }} 上的服务 {{ $labels.name }} 当前状态异常。请立即检查该机器的运行状况。
+    Description: 检测到服务器 {{ $labels.instance }} 上的服务 {{ $labels.name }} 当前状态异常。请立即检查该机器的运行状况。
 
-  Save rule and exit。
+    Save rule and exit。
 
 接下来是systemd服务的告警规则，其余部分可以仿照上面步骤进行，区别是需要把PromQL逻辑改为`node_systemd_unit_state{name="docker.service", state="active"}`。
 
