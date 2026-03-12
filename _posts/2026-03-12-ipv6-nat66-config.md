@@ -33,7 +33,7 @@ tags:
 
 3. 切换到“IPv6 RA Settings”并将Default Router设置为`forced`。
 ![default-router](/assets/images/image%20copy%204.png)
-> 对于内网 ULA 前缀，部分设备不会将路由器设为默认网关，必须强制通告.
+>> 对于内网 ULA 前缀，部分设备不会将路由器设为默认网关，必须强制通告.
 
 点击“保存并应用”。
 
