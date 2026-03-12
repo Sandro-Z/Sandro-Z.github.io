@@ -26,14 +26,14 @@ tags:
 ![assignment-length](/assets/images/image%20copy%202.png)
 2. 切换到页面下方的 DHCP 服务器 (DHCP Server) -> IPv6 设置 (IPv6 Settings)，按照以下设置：
 
->> 路由通告服务 (Router Advertisement-Service)：设置为 服务器模式 (server mode)  
->> DHCPv6 服务 (DHCPv6-Service)：设置为 服务器模式 (server mode)  
->> NDP 代理 (NDP-Proxy)：设置为 禁用 (disabled)
->> ![dhcp-settings](/assets/images/image%20copy%203.png)
+    路由通告服务 (Router Advertisement-Service)：设置为 服务器模式 (server mode)  
+    DHCPv6 服务 (DHCPv6-Service)：设置为 服务器模式 (server mode)  
+    NDP 代理 (NDP-Proxy)：设置为 禁用 (disabled)
+    ![dhcp-settings](/assets/images/image%20copy%203.png)
 
 3. 切换到“IPv6 RA Settings”并将Default Router设置为`forced`。
->> ![default-router](/assets/images/image%20copy%204.png)
->> 对于内网 ULA 前缀，部分设备不会将路由器设为默认网关，必须强制通告.
+    ![default-router](/assets/images/image%20copy%204.png)
+    > 对于内网 ULA 前缀，部分设备不会将路由器设为默认网关，必须强制通告.
 
 点击“保存并应用”。
 
