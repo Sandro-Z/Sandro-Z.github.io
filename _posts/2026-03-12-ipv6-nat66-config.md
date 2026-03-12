@@ -29,10 +29,10 @@ tags:
 >> 路由通告服务 (Router Advertisement-Service)：设置为 服务器模式 (server mode)  
 >> DHCPv6 服务 (DHCPv6-Service)：设置为 服务器模式 (server mode)  
 >> NDP 代理 (NDP-Proxy)：设置为 禁用 (disabled)
-![dhcp-settings](/assets/images/image%20copy%203.png)
+>> ![dhcp-settings](/assets/images/image%20copy%203.png)
 
 3. 切换到“IPv6 RA Settings”并将Default Router设置为`forced`。
-![default-router](/assets/images/image%20copy%204.png)
+>> ![default-router](/assets/images/image%20copy%204.png)
 >> 对于内网 ULA 前缀，部分设备不会将路由器设为默认网关，必须强制通告.
 
 点击“保存并应用”。
