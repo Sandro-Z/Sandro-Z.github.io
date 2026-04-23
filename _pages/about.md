@@ -25,9 +25,9 @@ Other languages: [zh](/resume-zh/){: .btn .btn--success}
 *July 2025 - Present*
 - **Description:** Dedicated to exploring pathogenic mechanisms of complex diseases by integrating single-cell sequencing data with Genome-Wide Association Studies (GWAS).
 
-**Thermal Ablation Monitoring Imaging Technology (National Innovation Training Project)** | *Core Member*
-*2025 - 2026*
-- **Description:** Developed and optimized an imaging monitoring system to address real-time monitoring challenges during thermal ablation surgery.
+**Intelligent ultrasonic monitoring imaging of thermal ablation based on temporal semi-supervised model (Provincial Innovation Training Project)** | *Core Member*
+*2025.4 - 2026.4*
+- **Description:** Developed and optimized the algorithm of an imaging monitoring system to address real-time monitoring challenges during thermal ablation surgery.
 
 **Functional Study of ALDH Family Genes (Innovation Training Project)** | *Core Member*
 *2025 - 2026*
@@ -37,7 +37,7 @@ Other languages: [zh](/resume-zh/){: .btn .btn--success}
 
 ## 💻 Campus & Technical Experience
 
-**XJTU Association of Network Administrators** | **President**
+**XJTU Association of Network Administrators (<https://xjtuana.com/>, <https://ana.xjtu.edu.cn/>)** | **President**
 *2025 - 2026*
 - **Management:** Coordinated daily operations, organized technical sharing sessions and network maintenance training to enhance members' skills. Awarded "Outstanding Member (2024-2025)". Previously served as the Head of the R&D Department.
 - **Technical Practice:** Responsible for basic maintenance and troubleshooting of the campus network, coordinated responses to sudden network security incidents, and provided voluntary computer repair services and IT knowledge popularization.
